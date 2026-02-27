@@ -23,7 +23,7 @@ import org.apache.camel.component.minio.MinioComponent;
 import org.apache.camel.main.MainConfigurationProperties;
 import org.apache.camel.test.infra.minio.services.MinioService;
 import org.apache.camel.test.infra.minio.services.MinioServiceFactory;
-import org.apache.camel.test.main.junit5.CamelMainTestSupport;
+import org.apache.camel.test.main.junit6.CamelMainTestSupport;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 

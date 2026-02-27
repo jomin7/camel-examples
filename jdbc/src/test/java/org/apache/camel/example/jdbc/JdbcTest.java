@@ -18,7 +18,7 @@ package org.apache.camel.example.jdbc;
 
 import org.apache.camel.builder.NotifyBuilder;
 import org.apache.camel.model.ModelCamelContext;
-import org.apache.camel.test.spring.junit5.CamelSpringTest;
+import org.apache.camel.test.spring.junit6.CamelSpringTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
