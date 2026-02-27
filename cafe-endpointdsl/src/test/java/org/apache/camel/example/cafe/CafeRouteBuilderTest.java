@@ -27,7 +27,7 @@ import org.apache.camel.example.cafe.stuff.OrderSplitter;
 import org.apache.camel.example.cafe.test.TestDrinkRouter;
 import org.apache.camel.example.cafe.test.TestWaiter;
 import org.apache.camel.spi.Registry;
-import org.apache.camel.test.junit5.CamelTestSupport;
+import org.apache.camel.test.junit6.CamelTestSupport;
 import org.junit.jupiter.api.Test;
 
 class CafeRouteBuilderTest extends CamelTestSupport {

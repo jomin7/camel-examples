@@ -18,7 +18,7 @@ package org.apache.camel.example.basic;
 
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.builder.NotifyBuilder;
-import org.apache.camel.test.junit5.CamelTestSupport;
+import org.apache.camel.test.junit6.CamelTestSupport;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.TimeUnit;
