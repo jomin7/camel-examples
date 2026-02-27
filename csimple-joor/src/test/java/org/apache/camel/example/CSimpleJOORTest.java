@@ -18,8 +18,8 @@ package org.apache.camel.example;
 
 import org.apache.camel.builder.NotifyBuilder;
 import org.apache.camel.main.MainConfigurationProperties;
-import org.apache.camel.test.junit5.CamelContextConfiguration;
-import org.apache.camel.test.main.junit5.CamelMainTestSupport;
+import org.apache.camel.test.junit6.CamelContextConfiguration;
+import org.apache.camel.test.main.junit6.CamelMainTestSupport;
 import org.junit.jupiter.api.Test;
 
 import java.util.Properties;

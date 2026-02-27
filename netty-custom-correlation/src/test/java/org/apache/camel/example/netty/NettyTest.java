@@ -22,7 +22,7 @@ import org.apache.camel.Predicate;
 import org.apache.camel.builder.NotifyBuilder;
 import org.apache.camel.main.MainConfigurationProperties;
 import org.apache.camel.spi.Registry;
-import org.apache.camel.test.main.junit5.CamelMainTestSupport;
+import org.apache.camel.test.main.junit6.CamelMainTestSupport;
 import org.junit.jupiter.api.Test;
 
 import static org.apache.camel.example.netty.MyClient.createCorrelationManager;

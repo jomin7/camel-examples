@@ -24,8 +24,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.camel.builder.NotifyBuilder;
 import org.apache.camel.main.MainConfigurationProperties;
-import org.apache.camel.test.junit5.CamelContextConfiguration;
-import org.apache.camel.test.main.junit5.CamelMainTestSupport;
+import org.apache.camel.test.junit6.CamelContextConfiguration;
+import org.apache.camel.test.main.junit6.CamelMainTestSupport;
 import org.apache.ftpserver.FtpServer;
 import org.apache.ftpserver.FtpServerFactory;
 import org.apache.ftpserver.filesystem.nativefs.NativeFileSystemFactory;
@@ -38,8 +38,8 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static org.apache.camel.test.junit5.TestSupport.createDirectory;
-import static org.apache.camel.test.junit5.TestSupport.deleteDirectory;
+import static org.apache.camel.test.junit6.TestSupport.createDirectory;
+import static org.apache.camel.test.junit6.TestSupport.deleteDirectory;
 import static org.apache.camel.util.PropertiesHelper.asProperties;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

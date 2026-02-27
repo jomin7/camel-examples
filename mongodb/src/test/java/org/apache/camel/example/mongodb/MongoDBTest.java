@@ -25,7 +25,7 @@ import org.apache.camel.main.MainConfigurationProperties;
 import org.apache.camel.spi.Registry;
 import org.apache.camel.test.infra.mongodb.services.MongoDBService;
 import org.apache.camel.test.infra.mongodb.services.MongoDBServiceFactory;
-import org.apache.camel.test.main.junit5.CamelMainTestSupport;
+import org.apache.camel.test.main.junit6.CamelMainTestSupport;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
